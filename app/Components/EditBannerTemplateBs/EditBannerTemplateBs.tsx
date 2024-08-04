@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import style from './EditBannerTemplateBs.module.css';
+import style from './editBannerTemplateBs.module.css';
 
 const EditBannerTemplateBs = ({
     onClose,
