@@ -1,0 +1,66 @@
+
+.card1{
+    width: 100%;
+    height: 350px;
+    background-image: url(../Backgroundimg/img1.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.img1{
+    max-height: 150px;
+    min-height: 150px;
+    height: 150px;
+    max-width: 280px;
+    width: 280px;
+    min-width: 280px;
+    position: absolute;
+    bottom: 2.9rem;
+    left: 3.4rem;
+
+}
+
+.title1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.des1{
+    font-size: 1.1rem;
+    margin-top: 0.8rem;
+    margin-left: 3.3rem;
+}
+
+.button1 {
+    color: black;
+    border: none;
+    position: absolute; 
+    padding: 0.5rem 1rem; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    border-radius: 0.25rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    position: relative; 
+    z-index: 1; 
+    margin-left: 3rem;
+    margin-top: 12rem;
+}
+
+.editIcon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.editIcon svg {
+    font-size: 20px;
+    color: white;
+}
+
+

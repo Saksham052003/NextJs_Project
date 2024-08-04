@@ -1,0 +1,58 @@
+/* File: global.css or similar */
+  
+  /* File: home.module.css */
+  
+  .home {
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Constrain the maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 10px;
+  }
+  
+  .h1 {
+    color: #333; /* Darker text color for better contrast */
+    font-size: 2.5rem; /* Increase font size */
+    text-align: center; /* Center horizontally */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+  }
+  
+  .label {
+    font-weight: bold; /* Make labels stand out */
+    margin-bottom: 5px; /* Space below labels */
+  }
+  
+  .inputField, .textareaField, .fileInput {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .textareaField {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Minimum height for the textarea */
+  }
+  
+  .button {
+    background-color:#082f49; /* Primary button color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .button:hover {
+    background-color: #0c4a6e; /* Darker shade on hover */
+  }
+  

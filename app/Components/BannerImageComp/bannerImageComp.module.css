@@ -1,0 +1,55 @@
+/* bannerImageComp.module.css */
+
+.bannerImgs {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.cardWrapper {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.selectedCard {
+    border: 2px solid #0070f3; /* Highlight selected card */
+    background-color: #f0f8ff; /* Light background color for selected card */
+}
+
+.downloadButton {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.downloadButton:hover {
+    background-color: #005bb5;
+}
+
+.downloadButton:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
